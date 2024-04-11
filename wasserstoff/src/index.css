@@ -13,6 +13,14 @@
     background-size: cover;
    animation: cut-image 3s ease-in-out infinite ; /* Animation properties */
  }
+.img1 {
+    /* Adjust as needed */
+    width: 371px;
+    height: 61px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
  
  @keyframes cut-image {
    0% { 

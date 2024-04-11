@@ -1,4 +1,4 @@
-import React from 'react'
+
 import courosal1 from './images/caurosal1.png'
 import courosal2 from './images/caurosal2.png'
 import courosal3 from './images/caurosal3.png'

@@ -11,9 +11,9 @@ export default function Collection() {
         <div className="h-screen bg-[#15181B]">
 
 
-            <div class="flex">
+            <div className="flex">
                 
-                <div class="flex-none w-[60%]  h-screen bg-[#15181B] relative">
+                <div className="flex-none w-[60%]  h-screen bg-[#15181B] relative">
                     <div className='flex p-5'>
                         <div><img src={branding} alt="brand" /></div>
                         <div><img src={logo} alt="logo" /></div>
@@ -49,11 +49,11 @@ export default function Collection() {
 
 
                 </div>
-                <div class="grow w-h-screen bg-[#15181B] relative">
+                <div className="grow w-h-screen bg-[#15181B] relative">
                     <img src={roll} alt="" className=' h-screen' />
                 </div>
 
-                <div class="flex-none w-[35%] h-screen bg-[#15181B] relative">
+                <div className="flex-none w-[35%] h-screen bg-[#15181B] relative">
                     <div className='p-10'>
                         <div className='text-white text-lg font-bold tracking-wider'>
                             Explore Your First <br /> Collectible

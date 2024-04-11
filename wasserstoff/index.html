@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    #img1,#img2,#img3,#img7,#img5 {
+   /* Adjust as needed */
+  clip-path: inset(0 70% 0 0); /* Initial 50% cut */
+  animation: cut-image 2s ease-in-out infinite alternate; /* Animation properties */
+}
+
+@keyframes cut-image {
+  from { clip-path: inset(0 30% 0 0); } /* Start at 50% cut */
+  to { clip-path: inset(0 0 0 0); } /* Animate to 100% cut */
+}
+
+  </style>
+  <body class="bg-[#FFF4DF]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+
+    <!-- caurosal icons -->
+   
+
+  </body>
+</html>

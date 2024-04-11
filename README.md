@@ -4,7 +4,7 @@
 This project is a web page developed to meet the evaluation requirements from Wasserstoff. Page is a landing page.
 
 Live website preview available 
-- [Website Link](https://abbhishekk.github.io/Zoni-Developer-page1/)
+- [Website Link](https://wasserstoff23.netlify.app/)
 
 
 ## Tech Stack

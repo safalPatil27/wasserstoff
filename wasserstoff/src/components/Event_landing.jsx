@@ -37,7 +37,7 @@ export default function Event_landing() {
                             <p className='flex justify-center items-center'>
                             <span className='p-2  img' style={{backgroundImage: `url(${img3})`}} ></span>
                               between 
-                              <span className='p-2  img' style={{backgroundImage: `url(${img4})`}} ></span>
+                              <span className='p-2  img1' style={{backgroundImage: `url(${img4})`}} ></span>
                               MUSIC </p>
 
                             <p className='flex justify-center items-center'> ARTIST

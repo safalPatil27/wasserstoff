@@ -3,6 +3,7 @@ import logo from './images/Logo.png'
 import branding from './images/Astrix Branding.png'
 import roll from './images/Roll.png'
 import card from './images/Image.png'
+import Caurosal from './Caurosal'
 
 
 export default function Collection() {
@@ -10,14 +11,18 @@ export default function Collection() {
         <div className="h-screen bg-[#15181B]">
 
 
-            <div className="flex">
-                <div className="flex-none w-[60%]  h-screen bg-[#15181B]">
+            <div class="flex">
+                
+                <div class="flex-none w-[60%]  h-screen bg-[#15181B] relative">
                     <div className='flex p-5'>
                         <div><img src={branding} alt="brand" /></div>
                         <div><img src={logo} alt="logo" /></div>
                     </div>
 
-                    <div className='font-bold text-[110px] ml-5 text-gray-700 absolute'>
+                    <Caurosal  className='hidden'/>
+
+                    <div className='font-bold text-[110px] ml-5 text-gray-700 '>
+                    
                         <div>ASTR </div>
                         <div className='mt-[-70px]'>IX</div>
 
@@ -27,8 +32,8 @@ export default function Collection() {
 
                         <div>
                             <div>
-                                <div className=' bg-gray-700 ml-5 rounded-full '>
-                                    <ul className='flex justify-between p-3 mx-4 text-white font-extrabold text-sm' >
+                                <div className='w-1/4 bg-gray-700 ml-5 rounded-full mx-5'>
+                                    <ul className='flex justify-between p-3 mx-1 text-white font-extrabold text-sm' >
                                         <li>Events</li>
                                         <li> Collection</li>
                                     </ul>
@@ -37,16 +42,18 @@ export default function Collection() {
                         </div>
                         
                     </div>
+                    
 
 
 
 
 
                 </div>
-                <div className="grow w-h-screen bg-[#15181B]">
-                    <img src={roll} alt="roll" className=' h-screen' />
+                <div class="grow w-h-screen bg-[#15181B] relative">
+                    <img src={roll} alt="" className=' h-screen' />
                 </div>
-                <div className="flex-none w-[35%] h-screen bg-[#15181B]">
+
+                <div class="flex-none w-[35%] h-screen bg-[#15181B] relative">
                     <div className='p-10'>
                         <div className='text-white text-lg font-bold tracking-wider'>
                             Explore Your First <br /> Collectible

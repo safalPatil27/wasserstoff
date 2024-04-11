@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from './images/Astrix Logo.png'
 import img1 from './images/image 143.png'
 import img2 from './images/Frame 1261154652.png'
@@ -22,19 +22,33 @@ export default function Event_landing() {
                     <img src={logo} alt="" />
                 </div>
 
-               
+                
                     <div className=' grid place-content-center h-screen  '>
-                        <p className='uppercase font-bold text-[50px] text-justify'>
+                        <p className='uppercase font-bold text-[50px]    text-justify'>
 
-                            <span className='flex'> We <img src={img1} alt="" className='p-2 w-2/5 ' id='img1'/> ORGANIZE The </span>
+                            <p className='flex justify-center items-center'>We 
+                            <span className='  img' style={{backgroundImage: `url(${img1})`}} ></span>
+                             ORGANIZE The </p>
 
-                             <span className='flex'> CONNECTION <img src={img2} alt="" className='p-2 w-1/2' id='img2'/> </span>
+                             <p className='flex justify-center items-center'> CONNECTION 
+                             <span className='p-2  img' style={{backgroundImage: `url(${img2})`}} ></span>
+                              </p>
 
-                            <span className='flex'> <img src={img3} alt=""className='p-2' id='img3'/>  between <img src={img4} alt=""  />  MUSIC </span>
+                            <p className='flex justify-center items-center'>
+                            <span className='p-2  img' style={{backgroundImage: `url(${img3})`}} ></span>
+                              between 
+                              <span className='p-2  img' style={{backgroundImage: `url(${img4})`}} ></span>
+                              MUSIC </p>
 
-                            <span className='flex'> ARTIST <img src={img5} alt="" className='p-2' id='img5'/> CULTURE <img src={img6} alt="" /> </span>
+                            <p className='flex justify-center items-center'> ARTIST
+                            <span className='p-2  img' style={{backgroundImage: `url(${img5})`}} ></span>
+                             CULTURE <span className='p-2  img' style={{backgroundImage: `url(${img6})`}} ></span> 
+                             </p>
 
-                            <span className='flex'> <img src={img7} alt=""className='p-2' id='img7'/> art <img src={img8} alt="" className='p-2'/> & COLLECTIONS </span>
+                            <p className='flex justify-center items-center'>
+                            <span className='p-2  img' style={{backgroundImage: `url(${img7})`}} ></span>
+                             art <span className='p-2  img' style={{backgroundImage: `url(${img8})`}} ></span> 
+                             & COLLECTIONS </p>
                             
                         </p>
 
